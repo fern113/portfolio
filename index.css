@@ -5,12 +5,14 @@ body {
     background-repeat: no-repeat;
     font-family: 'Special Elite', cursive;
 }
+
 .div {
     width: auto;
 }
+
 .container {
     margin: auto;
-    width: 850px;
+    width: 1075px;
 }
 
 #floater {
@@ -18,14 +20,18 @@ body {
     top: 0;
     background-image: url("assets/img/white world.jpg");
     background-size: 100%;
-    background width: 120%;
+    background width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     border-bottom-style: solid;
     border-color: black;
     margin-top: auto;
     width: 100%;
-    
+}
+
+#contact {
+    float: right;
+    padding-right: 200px;
 }
 
 .img-re {
@@ -42,11 +48,11 @@ body {
     width: 64%;
 }
 
-
-.colum30 ,
+.colum30,
 .colum60 {
     display: inline-block;
 }
+
 .colum301 {
     width: 34%;
 }
@@ -55,17 +61,19 @@ body {
     width: 64%;
     vertical-align: top;
 }
-.colum301 ,
+
+.colum301,
 .colum601 {
     display: inline-block;
 }
 
 #ul {
-    padding-left: 185px; 
-    
+    padding-left: 185px;
+    width: auto;
 }
+
 #bio {
-    padding-top: 220px;
+    padding-top: 225px;
 }
 
 #skill {
@@ -76,14 +84,12 @@ a:link {
     text-decoration: none;
 }
 
-li {
-    list-style: none;
-}
-
 a:visited {
     color: black;
 }
-.myProject li {
-    display: inline-block;
-}
+
+#proj {
+     width: 30%;
+     height: 25%;
+     display: inline-table;
 }
